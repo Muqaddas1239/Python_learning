@@ -115,3 +115,22 @@ NUM=[1, 2, 3, 4, 8]
 Result=reduce(lambda a, b:a+b, NUM)
 print(Result)
 
+#5. Inner function in Python: is simply a function defined inside another function
+
+def outer():
+    def inner():
+        print("Its Inner function")
+    inner()
+outer()
+
+#Decorator in python: is a function that adds extra behaviour to another function without changing its original code
+def decorat(fun):
+    def wrapper():
+        print("before function")
+        fun()
+        print("after function")
+    return wrapper
+@decorat
+def greet():
+    print("Its main function")
+greet()
