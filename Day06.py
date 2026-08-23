@@ -108,8 +108,8 @@ print(dq)
 #4. OrderedDict in Python:is a subclass of Python’s built-in dictionary that remembers the order in which keys are inserted
 
 from collections import OrderedDict
-
-od = OrderedDict()
+                                                        
+od = OrderedDict()   
 od['apple'] = 1
 od['banana'] = 2
 od['cherry'] = 3
@@ -127,3 +127,4 @@ d['fruits'].append('apple')
 d['vegetables'].append('carrot')
 print(d)
 print(d['juices'])
+
