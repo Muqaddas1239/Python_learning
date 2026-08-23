@@ -56,7 +56,6 @@ print("apple" not in Fruits)    #Checks if a value does not exist
 
 #2. Built in data types :( List, Tuples, Set, Dictionary)
 #List: are used to store multiple items in a single  variables i.e.,fruits
-
 list=["abc", 34, True, 40, "male"]      #list with strings, integers and Boolean values
 
 fruits = ["apple", "banana", "mango"]
